@@ -1,0 +1,30 @@
+:root {
+  /* Шрифты */
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+
+  /* Цвета шрифтов */
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --placeholder: rgba(117, 117, 117, 0.5);
+
+  /* Цвета заливки */
+  --primary-bacground: #ffffff;
+  --secondary-background: #f5f4fa;
+  --footer-bacground: #2f303a;
+  --accent-background: #2196f3;
+  --icon-fill: #afb1b8;
+  --footer-social-bcg: rgba(255, 255, 255, 0.1);
+  --about-background: rgba(47, 48, 58, 0.8);
+  --project-overlay: rgba(33, 150, 243, 0.9);
+  --backdrop-bcg: rgba(0, 0, 0, 0.2);
+  --footer-input: rgba(255, 255, 255, 0.3);
+
+  /* Цвета линий обводки */
+  --header-border: #ececec;
+  --projects-border: #eeeeee;
+  --clients-border: #afb1b8;
+  --form-border: rgba(33, 33, 33, 0.2);
+}

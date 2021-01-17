@@ -1,0 +1,30 @@
+.section.about {
+  padding-top: 0;
+}
+
+.about__list {
+  display: flex;
+
+  &-item {
+    position: relative;
+
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+
+  &-dscr {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    background-color: var(--about-background);
+    font-family: var(--main-font);
+    @include font(14px, 700, 16px, 0.03em);
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+  }
+}
