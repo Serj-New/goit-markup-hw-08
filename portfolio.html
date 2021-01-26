@@ -10,45 +10,58 @@
     <link rel="stylesheet" href="./css/portfolio.min.css">
 </head>
 <body>
-    <!-- <header class="header">
+    <header class="header">
         <div class="container">
             <nav class="menu">
                 <a class="logo link" href="./index.html" lang="en"">
-                            <span>Web</span>
-                            <span class=" logo-black">Studio</span>
+                        <span>Web</span>
+                        <span class=" logo-black">Studio</span>
                 </a>
-            
-                <ul class="menu__list list">
-                    <li class="menu__list-item">
-                        <a class="menu__list-link link" href="./index.html">Студия</a>
-                    </li>
-                    <li class="menu__list-item">
-                        <a class="menu__list-link link current" href="">Портфолио</a>
-                    </li>
-                    <li class="menu__list-item">
-                        <a class="menu__list-link link" href="">Контакты</a>
-                    </li>
-                </ul>
+    
+                <button type="button" class="menu-button" aria-expanded="false" aria-controls="menu-container"
+                    data-menu-button>
+                    <svg width="40" height="40" aria-label="Переключатель мобильного меню">
+                        <use class="icon-cross" href="./images/icons/sprite.svg#cross"></use>
+                        <use class="icon-menu" href="./images/icons/sprite.svg#menu"></use>
+                    </svg>
+                </button>
+    
+                <div class="menu-container" id="menu-container" data-menu>
+                    <div class="navigation">
+                        <ul class="menu__list list">
+                            <li class="menu__list-item">
+                                <a href="./index.html" class="menu__list-link link">Студия</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a href="./portfolio.html" class="menu__list-link link current">Портфолио</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link link" href="">Контакты</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="contacts">
+                        <ul class="address list">
+                            <li class="address__item">
+                                <a class="address__item-link link" href="mailto:info@devstudio.com">
+                                    <svg class="address-icon" width="16" height="12">
+                                        <use href='./images/icons/sprite.svg#envelope'></use>
+                                    </svg>
+                                    info@devstudio.com</a>
+                            </li>
+                            <li class="address__item">
+                                <a class="address__item-link link" href="tel:380961111111">
+                                    <svg class="address-icon" width="10" height="16">
+                                        <use href='./images/icons/sprite.svg#smartphone'></use>
+                                    </svg>
+                                    +38 096 111 11 11</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
-            
-            <ul class="address list">
-                <li class="address__item">
-                    <a class="address__item-link link" href="mailto:info@devstudio.com">
-                        <svg class="address-icon" width="16" height="12">
-                            <use href='./images/icons/sprite.svg#envelope'></use>
-                        </svg>
-                        info@devstudio.com</a>
-                </li>
-                <li class="address__item">
-                    <a class="address__item-link link" href="tel:380961111111">
-                        <svg class="address-icon" width="10" height="16">
-                            <use href='./images/icons/sprite.svg#smartphone'></use>
-                        </svg>
-                        +38 096 111 11 11</a>
-                </li>
-            </ul>
         </div>
-    </header> -->
+    </header>
 
     <main class="section">
         <div class="filter container">
@@ -327,5 +340,7 @@
             </div>
         </div>
     </footer>
+
+    <script src="./js/menu.js"></script>
 </body>
 </html>

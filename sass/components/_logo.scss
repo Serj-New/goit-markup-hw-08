@@ -1,8 +1,12 @@
 .logo {
   display: flex;
   font-family: var(--secondary-font);
-  @include font(26px, 700, 31px, 0.03em);
+  @include font(24px, 700, 28px, 0.03em);
   color: var(--accent-color);
+
+  @media screen and (min-width: 1200px) {
+    @include font(26px, 700, 31px, 0.03em);
+  }
 }
 
 .logo-accent {
